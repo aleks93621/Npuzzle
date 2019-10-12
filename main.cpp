@@ -19,7 +19,7 @@ int         main(int argc, char ** argv) {
     }
     size_t      size;
     std::vector<int> numbers; 
-    size_t      maxSize;
+    size_t      maxSize = 0;
 
     if (!parser(argv[argc - 1], size, numbers))
         return 0;
